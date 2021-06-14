@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: navy;
+}
+
+h2 {
+    color:blue;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: ;
+    color: #343A40; 
+    background-color: #E1E8EB;
+
+}
+
+.form {
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+.divTop{
+    margin-top: 20px;
+}
+
+.table {
+    border-spacing: 1rem;
+    text-align: left;
+    table-layout: auto;
+    width: 50%;
+    border: 1px solid navy;
+    margin: auto;
+}
+
+.captionTable {
+    color: blue;
+}
+
+.tableHeader {
+    background-color: lightslategrey;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang eng>
+    <head>
+        <title>AAnderwald | Forms and Tables</title>
+        <meta charset="utf-8" />
+        <meta name="formsTables" content="example of forms and tables" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+    <h1> Form and Table Classwork</h1>
+        <section>
+            <h2> Form only </h2> 
+            <form class="form" action="">
+                <div class="divTop">
+                    <label for="firstName"><strong>First Name</strong></label>
+                    <input type="text" name="firstName" id="firstName" aria-label="First Name" required> 
+                </div>
+
+                <div class="divTop">
+                    <label for="lastName"><strong>Last Name</strong></label>
+                    <input type="text" name="lastName" id="lastName" aria-label="Last Name" required>
+                </div>
+    
+                <div class="divTop">
+                    <label for="dob"><strong>DOB</strong></label>
+                    <input type="date" name="dob" id="dob" required>
+                </div class="divTop">
+    
+                <div class="divTop">
+                    <label for="email"><strong>E-mail</strong></label>
+                    <input type="email" name="email" id="email" placeholder="name@domain.com" required>
+                </div>
+                
+                <div class="divTop">
+                    <label for="phoneNumber"><strong>Phone Number</strong></label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber" aria-label="Phone Number" required>
+                </div>
+    
+                <div class="divTop">
+                    <p><strong>Programming Experience</strong></p>
+                    <label for="entryLevel">Entry Level</label>
+                    <input type="radio" name="entryLeve" id="entryLeve">
+                    <label for="juniorLevel">Junior Level</label>
+                    <input type="radio" name="juniorLevel" id="juniorLevel">
+                    <label for="midLevel">Mid Level</label>
+                    <input type="radio" name="midLevel" id="midLevel">
+                    <label for="seniorLevel">Senior Level</label>
+                    <input type="radio" name="seniorLevel" id="seniorLevel">
+                </div>
+
+                <div class="divTop">
+                    <label for="desiredSalary">Desired Salary</label>
+                    <span> $45,000 </span>
+                    <input type="range" name="desiredSalary" id="desiredSalary" min="45000" max="200000" step="1000" required>
+                    <span> $200,000 </span>
+                </div>
+    
+                <div class="divTop">
+                    <label for="desiredCareer"><strong>Desired Career</strong></label>
+                    <textarea name="desiredCareer" id="desiredCareer" cols="80" rows="8"></textarea>
+                </div>
+
+                <div class="divTop"> 
+                     <input type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+
+<hr>
+
+        <section>
+        <h2> Table Only </h2>
+             <table class="table">
+                 <caption class="captionTable">Add a Table</caption>
+                <thead class="tableHeader">
+                    <tr>
+                        <th> First Name </th>
+                        <th> Last Name </th>
+                        <th colspan="4"> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Anna </td>
+                        <td> Anderwald </td>
+                        <td> anna.v.anderwald@gmail.com </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </body>
+
+
+</html>
