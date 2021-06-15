@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 h1 {
-    color: navy;
+    color: #03315c;
 }
 
 h2 {
-    color:blue;
+    color: #06437c;
 }
 
 html {
@@ -17,29 +17,41 @@ html {
 
 }
 
+/* this is for the form */
+
 .form {
     max-width: 600px;
     margin: auto;
     
 }
 
-.divTop{
+.divTop {
     margin-top: 20px;
 }
+
+.label {
+    padding-right: 10px;
+}
+
+#desiredCareer {
+    margin-top: 15px;    
+}
+
+/* this is for the table */
 
 .table {
     border-spacing: 1rem;
     text-align: left;
     table-layout: auto;
     width: 50%;
-    border: 1px solid navy;
+    border: 1px solid #03315c;
     margin: auto;
 }
 
 .captionTable {
-    color: blue;
+    color:  #06437c;
 }
 
 .tableHeader {
-    background-color: lightslategrey;
+    background-color: #767b7e49;
 }
