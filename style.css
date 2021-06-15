@@ -55,3 +55,31 @@ html {
 .tableHeader {
     background-color: #767b7e49;
 }
+
+/* this is for the flex box */
+
+.flexContainer {
+    display: flex;
+    justify-content: flex-start
+    align-items: flex-start;
+    margin: auto;
+    flex-wrap: wrap;
+    min-height: 420px;
+    border: 1px solid black;
+}
+
+.flexItem:nth-child(3) {
+    background-color: #91bae0;
+    color:#03315c;
+}
+
+.flexItem {
+    width: 200px;
+    height: 200px;
+    background-color:#06437c;
+    color: white;
+    border: 1px solid black;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+}

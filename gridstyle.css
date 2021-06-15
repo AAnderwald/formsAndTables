@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    border: 1px solid black;
+}
+
+.gridItem {
+    border: 1px dotted green;
+}
+
+.gridItem:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.gridItem:nth-child(5) {
+    grid-column-start: 2;
+    grid-column-start: 4;
+}
