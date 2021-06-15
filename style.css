@@ -37,6 +37,13 @@ html {
     margin-top: 15px;    
 }
 
+.button {
+    background-color: #03315c;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
 /* this is for the table */
 
 .table {
@@ -55,6 +62,7 @@ html {
 .tableHeader {
     background-color: #767b7e49;
 }
+
 
 /* this is for the flex box */
 
